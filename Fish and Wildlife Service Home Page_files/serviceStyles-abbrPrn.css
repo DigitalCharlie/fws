@@ -1,0 +1,19 @@
+@charset "UTF-8";
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+}
+
+.NewsTitle {
+	font-size:14px;
+	font-weight:bold;
+}
+
+.small {
+	font-size: 9px;
+}
+
+ .noPrint
+ {display:none !important;
+ }
+ 
