@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#fwsBar {
+	height: 36px;
+	width: 100%;
+	visibility: visible;
+	background-color: #000000;
+	text-decoration: none;
+} 			
+
+#siteName {			/* If you change the siteName color, you may also need to change "siteName a" color*/
+	width: 100%;
+	line-height:47px;
+	font-size: 2.25em;
+	color: #000000;
+	text-decoration: none;
+	white-space: nowrap;
+	font-family: Arial, Helvetica, sans-serif;
+	visibility: visible;
+	padding-left: 136px;
+	font-weight:bold;
+}
+
+#siteName a{		/* This fixes a css coding error in the original template.*/
+	text-decoration:none;
+	color: #000000;
+}
+.organizationText {	
+	font-family:"Times New Roman", Times, serif;
+	font-size: 2em;
+	font-style:italic;
+	float: right;
+	padding-right: 10px;
+	padding-top: 22px;
+	color: #666666; 
+	text-decoration: none;
+}
+
+#searchBar {
+	cursor: text;
+	padding-top: 6px;
+	overflow: hidden;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000; /*you can change this. It should agree with border top color */
+	visibility: visible;
+	background-color: #336699; /* you can change this changed from #AA9A83*/
+	overflow: hidden;
+}
+
+
+#searchBar FORM {
+	cursor: text;
+	margin: 0px;
+	overflow: hidden;
+}
+
+#logo {
+	position:absolute;
+	width: 114px;
+	height:95px;
+	z-index:7;
+	top: 5px;
+	text-align: left;
+	text-indent: 35px;
+	padding-top: 5px;
+	visibility: visible;
+	background:url(http://www.fws.gov/home/graphics/logo.png) top right no-repeat; /*Adds PNG Logo */
+}
+
+#logo img[src*="logo2005"] {		/* Hides the old GIF logo */
+    display: none;
+}
+
+
+#logo a{		/* Makes logo area clickable */
+	display:block;
+	position:relative;
+	z-index:10;	
+	width: 114px;
+	height:95px;
+	top: 0;
+	padding-top: 5px;
+}
+
+.jumboimage
+{
+	background-color: #f5f5f5;
+}
+
+.pull-left-padded {
+  float: left;
+  margin-right:10px;
+  margin-left:10px;
+}
+.pull-right-padded {
+  float: right;
+  margin-left:10px;
+}
+#caption
+{
+	font-size: 0.75em;
+	color: #666666;
+	padding-right: 12px;
+	padding-left: 5px;
+	padding-top: 6px;
+}
+.Date
+{
+		font-size: 0.875em;
+		color:#666666;
+}
+#lastUpdated, #siteFooter, #serviceFooter {
+	text-align: center;
+}
+
+#siteContent, #serviceFooter, #siteFooter, #lastUpdated {
+	padding-bottom: 10px;
+}
+
+#serviceFooter, #siteFooter, #lastUpdated, #siteContent {
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
